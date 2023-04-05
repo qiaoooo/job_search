@@ -1,0 +1,19 @@
+.grid-container {
+  display: grid;
+  width: 90vw;
+  height: 90vh;
+  //border: 1px solid red;
+  grid-template-rows: 5% auto 70% ;
+  margin: 5%;
+  justify-content: stretch;
+  align-content: center;
+}
+
+.grid-item {
+  //border: 1px solid blue;
+}
+
+tr > td:hover {
+  overflow: visible;
+  white-space: unset;
+}
